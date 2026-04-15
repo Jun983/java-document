@@ -1,0 +1,26 @@
+# OS / Filesystem metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# IDE / Editor
+.vscode
+.idea
+.cursor
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Obsidian (user-specific / cache)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/.trash/
+
+# Obsidian local plugin git metadata (optional)
+.obsidian/plugins/*/.git/
