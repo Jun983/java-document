@@ -14,7 +14,7 @@
 
 - `.obsidian/`: Obsidian 워크스페이스 설정 파일
 - `java/`: 자바 학습 문서
-- `guides/`: 설치 및 사용 가이드 문서
+- `guides/menual/`: 설치 및 사용 가이드 문서
 
 ## 사용 방법
 
@@ -30,10 +30,10 @@
 
 위에서부터 아래로 순차적으로 진행해야 합니다.
 
-- [윈도우 기반 저장소 다운로드 메뉴얼](guides/윈도우-기반-문서-저장소-다운로드-메뉴얼.md)
-- [Visual Studio Code 설치 및 확장팩 메뉴얼](guides/윈도우-기반-visual-studio-code-설치-및-확장팩-메뉴얼.md)
-- [윈도우 기반 WSL 자바 개발환경 설치 메뉴얼](guides/윈도우-기반-wsl-자바-개발환경-설치-메뉴얼.md)
+- [윈도우 기반 저장소 다운로드 메뉴얼](guides/menual/윈도우-기반-문서-저장소-다운로드-메뉴얼.md)
+- [Visual Studio Code 설치 및 확장팩 메뉴얼](guides/menual/윈도우-기반-visual-studio-code-설치-및-확장팩-메뉴얼.md)
+- [윈도우 기반 WSL 자바 개발환경 설치 메뉴얼](guides/menual/윈도우-기반-wsl-자바-개발환경-설치-메뉴얼.md)
 
 ## 로드맵
 
-- [로드맵](로드맵.canvas)
+- [로드맵](canvas/로드맵.canvas)

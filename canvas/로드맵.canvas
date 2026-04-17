@@ -10,11 +10,7 @@
 		{"id":"ch02","type":"text","text":"Chapter 2\n[[java/chapter 02.md|변수와 자료형]]","x":-520,"y":-10,"width":260,"height":84,"color":"4"},
 		{"id":"ch04","type":"text","text":"Chapter 4\n[[java/chapter 04.md|배열과 문자열]]","x":-520,"y":290,"width":260,"height":84,"color":"4"},
 		{"id":"ch03","type":"text","text":"Chapter 3\n[[java/chapter 03.md|연산자와 제어문]]","x":-520,"y":140,"width":260,"height":84,"color":"4"},
-		{"id":"guide-doc","type":"text","text":"[[guides/윈도우-기반-문서-저장소-다운로드-메뉴얼.md|Git/Obsidian 설치 및 저장소 다운로드]]","x":200,"y":-160,"width":320,"height":84,"color":"5"},
-		{"id":"guide-vscode","type":"text","text":"[[guides/윈도우-기반-visual-studio-code-설치-및-확장팩-메뉴얼.md|Visual Studio Code 설치]]","x":200,"y":-10,"width":320,"height":84,"color":"5"},
-		{"id":"guide-wsl-java","type":"text","text":"[[guides/윈도우-기반-wsl-자바-개발환경-설치-메뉴얼.md|WSL 자바 개발환경 설치 메뉴얼]]","x":200,"y":140,"width":320,"height":84,"color":"5"},
-		{"id":"roadmap-title","type":"text","text":"<div style=\"height:100%;display:flex;align-items:center;justify-content:center;\"><h1 style=\"margin:0;\">Java Programming 로드맵</h1></div>\n","x":-670,"y":-280,"width":560,"height":80},
-		{"id":"fa2d700749b4e0f4","type":"text","text":"<div style=\"height:100%;display:flex;align-items:center;justify-content:center;\"><h1 style=\"margin:0;\">Java Programming 개발환경 설치 가이드</h1></div>\n\n","x":80,"y":-280,"width":560,"height":80}
+		{"id":"roadmap-title","type":"text","text":"<div style=\"height:100%;display:flex;align-items:center;justify-content:center;\"><h1 style=\"margin:0;\">Java Programming 로드맵</h1></div>\n","x":-670,"y":-280,"width":560,"height":80}
 	],
 	"edges":[
 		{"id":"e01","fromNode":"ch01","fromSide":"bottom","toNode":"ch02","toSide":"top"},
@@ -25,8 +21,6 @@
 		{"id":"e06","fromNode":"ch06","fromSide":"bottom","toNode":"ch07","toSide":"top"},
 		{"id":"e07","fromNode":"ch07","fromSide":"bottom","toNode":"ch08","toSide":"top"},
 		{"id":"e08","fromNode":"ch08","fromSide":"bottom","toNode":"ch09","toSide":"top"},
-		{"id":"e09","fromNode":"ch09","fromSide":"bottom","toNode":"ch10","toSide":"top"},
-		{"id":"g01","fromNode":"guide-doc","fromSide":"bottom","toNode":"guide-vscode","toSide":"top"},
-		{"id":"g02","fromNode":"guide-vscode","fromSide":"bottom","toNode":"guide-wsl-java","toSide":"top"}
+		{"id":"e09","fromNode":"ch09","fromSide":"bottom","toNode":"ch10","toSide":"top"}
 	]
 }

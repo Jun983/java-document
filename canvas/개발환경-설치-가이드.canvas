@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"guide-doc","type":"text","text":"[[guides/menual/윈도우-기반-문서-저장소-다운로드-메뉴얼.md|Git/Obsidian 설치 및 저장소 다운로드]]","x":-200,"y":-120,"width":320,"height":84,"color":"5"},
+		{"id":"guide-vscode","type":"text","text":"[[guides/menual/윈도우-기반-visual-studio-code-설치-및-확장팩-메뉴얼.md|Visual Studio Code 설치]]","x":-200,"y":30,"width":320,"height":84,"color":"5"},
+		{"id":"guide-wsl-java","type":"text","text":"[[guides/menual/윈도우-기반-wsl-자바-개발환경-설치-메뉴얼.md|WSL 자바 개발환경 설치 메뉴얼]]","x":-200,"y":180,"width":320,"height":84,"color":"5"},
+		{"id":"setup-title","type":"text","text":"<div style=\"height:100%;display:flex;align-items:center;justify-content:center;\"><h1 style=\"margin:0;\">Java Programming 개발환경 설치 가이드</h1></div>\n","x":-320,"y":-240,"width":560,"height":80}
+	],
+	"edges":[
+		{"id":"g01","fromNode":"guide-doc","fromSide":"bottom","toNode":"guide-vscode","toSide":"top"},
+		{"id":"g02","fromNode":"guide-vscode","fromSide":"bottom","toNode":"guide-wsl-java","toSide":"top"}
+	]
+}
