@@ -36,4 +36,6 @@
 
 ## 로드맵
 
-- [로드맵](canvas/로드맵.canvas)
+아래 로드맵 파일은 반드시 Obsidian에서 열어야 정상적으로 확인할 수 있습니다.
+
+- [Java Programming 학습 로드맵](canvas/Java-Programming-학습-로드맵.canvas)
