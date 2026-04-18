@@ -1,5 +1,7 @@
 # Visual Studio Code 설치
 
+[README로 돌아가기](../../README.md)
+
 이 문서는 Windows 환경에서 **powershell 터미널을 사용해** `winget`으로 Visual Studio Code를 설치하는 방법을 간단히 안내합니다.
 
 ## 1. Visual Studio Code 버전 확인 후 설치 (터미널)

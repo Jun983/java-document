@@ -34,6 +34,21 @@
 - [Visual Studio Code 설치 및 확장팩 메뉴얼](guides/menual/윈도우-기반-visual-studio-code-설치-및-확장팩-메뉴얼.md)
 - [윈도우 기반 WSL 자바 개발환경 설치 메뉴얼](guides/menual/윈도우-기반-wsl-자바-개발환경-설치-메뉴얼.md)
 
+## 문서 최신화 (main 브랜치)
+
+원격 저장소에 문서가 반영되었을 때(예: `main`에 push된 경우) 로컬에서도 같은 내용을 쓰려면 **`main` 브랜치**에서 최신 변경을 가져옵니다.
+
+```bash
+git checkout main
+git pull origin main
+```
+
+이미 `main`을 체크아웃한 상태라면 아래만 실행해도 됩니다.
+
+```bash
+git pull
+```
+
 ## 로드맵
 
 아래 로드맵 파일은 반드시 Obsidian에서 열어야 정상적으로 확인할 수 있습니다.

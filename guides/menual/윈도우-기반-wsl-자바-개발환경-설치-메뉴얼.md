@@ -1,5 +1,7 @@
 # Windows에서 WSL 자바 개발환경 설치
 
+[README로 돌아가기](../../README.md)
+
 이 문서는 Windows 환경에서 **powershell 터미널을 사용해** WSL(Windows Subsystem for Linux)과 리눅스 배포판을 설치(다운로드)하는 방법을 간단히 안내합니다.
 
 ## 1. WSL 설치 여부 확인 후 설치 (터미널)
