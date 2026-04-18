@@ -782,7 +782,7 @@ function getDecorationAttrs(phrase) {
 // src/editor/definition-search.ts
 var LineScanner = class {
   constructor(pTree) {
-    this.cnLangRegex = /\p{Script=Han}/u;
+    this.cnLangRegex = /\p{Script=Han}|\p{Script=Hangul}/u;
     this.terminatingCharRegex = /[!@#$%^&*()\+={}[\]:;"'<>,.?\/|\\\r\n （）＊＋，－／：；＜＝＞＠［＼］＾＿｀｛｜｝～｟｠｢｣､　、〃〈〉《》「」『』【】〔〕〖〗〘〙〚〛〜〝〞〟—‘’‛“”„‟…‧﹏﹑﹔·。]/;
     this.prefixTree = pTree ? pTree : getDefFileManager().getPrefixTree();
   }

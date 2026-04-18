@@ -52,7 +52,7 @@ code .
 
 `code .`를 처음 실행하면 WSL 내부에 VS Code Server 설치가 진행될 수 있으며, 이후에는 항상 WSL(원격) 쪽으로 VS Code가 열립니다.
 
-## 3. SDKMAN 이용해서 jdk 17 (openjdk) 설치 (터미널)
+## 3. SDKMAN 이용해서 JDK 17 (openjdk) 설치 (터미널)
 
 이 단계는 WSL(ubuntu) 터미널에서 진행합니다. (WSL 확장팩 설치는 이미 완료되어 있다고 가정합니다.)
 
