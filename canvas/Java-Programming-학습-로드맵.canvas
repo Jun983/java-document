@@ -1,7 +1,6 @@
 {
 	"nodes":[
-		{"id":"roadmap-title","type":"text","text":"<div style=\"height:100%;display:flex;align-items:center;justify-content:center;\"><h1 style=\"margin:0;\">Java Programming 학습 로드맵</h1></div>\n","x":-1140,"y":-320,"width":1220,"height":80,"color":"3"},
-		{"id":"readme-back","type":"text","text":"[[README.md|README로 돌아가기]]","x":120,"y":-320,"width":300,"height":80,"color":"3"},
+		{"id":"roadmap-title","type":"text","text":"<div style=\"height:100%;display:flex;align-items:center;justify-content:center;\"><h1 style=\"margin:0;\">Java Programming 학습 로드맵</h1></div>\n","x":-1140,"y":-320,"width":1020,"height":80,"color":"3"},
 		{"id":"stage01","type":"text","text":"1단계: 기본 문법 익히기","x":-1140,"y":-180,"width":300,"height":84,"color":"2"},
 		{"id":"ch01","type":"text","text":"Chapter 01 - [[java/docs/chapter 01.md|Java 시작하기]]","x":-1140,"y":-40,"width":300,"height":84,"color":"4"},
 		{"id":"ch02","type":"text","text":"Chapter 02 - [[java/docs/chapter 02.md|변수와 자료형]]","x":-1140,"y":110,"width":300,"height":84,"color":"4"},
@@ -20,7 +19,8 @@
 		{"id":"ch12","type":"text","text":"Chapter 12 - [[java/chapter 12.md|예외 처리]]","x":-50,"y":-40,"width":300,"height":84,"color":"4"},
 		{"id":"ch13","type":"text","text":"Chapter 13 - [[java/chapter 13.md|자바 기본 API]]","x":-50,"y":110,"width":300,"height":84,"color":"4"},
 		{"id":"ch14","type":"text","text":"Chapter 14 - [[java/chapter 14.md|컬렉션 프레임워크]]","x":-50,"y":260,"width":300,"height":84,"color":"4"},
-		{"id":"ch15","type":"text","text":"Chapter 15 - [[java/chapter 15.md|제네릭]]","x":-50,"y":410,"width":300,"height":84,"color":"4"}
+		{"id":"ch15","type":"text","text":"Chapter 15 - [[java/chapter 15.md|제네릭]]","x":-50,"y":410,"width":300,"height":84,"color":"4"},
+		{"id":"readme-back","type":"text","text":"[[README.md|README로 돌아가기]]","x":-50,"y":-320,"width":300,"height":80,"color":"3"}
 	],
 	"edges":[
 		{"id":"s01","fromNode":"stage01","fromSide":"right","toNode":"stage02","toSide":"left"},
