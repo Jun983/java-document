@@ -47,15 +47,18 @@
 
 #### 2-2. 런타임
 
-- [[definitions/java-glossary#JVM|JVM]]이 바이트코드 파일을 읽어 실행합니다.
-- [[definitions/java-glossary#클래스 로더|클래스 로더]]가 필요한 클래스를 [[definitions/java-glossary#메모리|메모리]]에 올리고, 실행 엔진이 명령을 처리합니다.
-  - [[definitions/java-glossary#인터프리터|인터프리터]], [[definitions/java-glossary#JIT 컴파일러|JIT 컴파일러]], [[definitions/java-glossary#가비지 컬렉터|가비지 컬렉터]]가 함께 동작해 실행과 최적화를 담당합니다.
-- 실행 중에는 [[definitions/java-glossary#메모리|메모리]] 영역을 사용합니다.
+- `java` 명령으로 [[definitions/java-glossary#JVM|JVM]]이 뜨면, 사용자 프로그램은 **JVM [[definitions/java-glossary#프로세스|프로세스]] 안**에서 돌아갑니다.
+  - [[definitions/java-glossary#클래스 로더|클래스 로더]]가 필요한 `.class`를 읽어 [[definitions/java-glossary#메모리|메모리]]에 올립니다.
+  - [[definitions/java-glossary#스레드|스레드]]마다 [[definitions/java-glossary#프로그램 카운터 레지스터|프로그램 카운터 레지스터]]가 **다음에 실행할 바이트코드 명령의 위치**를 가리킵니다.
+  - **실행 엔진**은 [[definitions/java-glossary#인터프리터|인터프리터]]·[[definitions/java-glossary#JIT 컴파일러|JIT 컴파일러]]·[[definitions/java-glossary#가비지 컬렉터|가비지 컬렉터]] 등으로 이루어진, JVM 안에서 **바이트코드 실행을 맡는 부분**입니다. [[definitions/java-glossary#프로그램 카운터 레지스터|프로그램 카운터 레지스터]]가 가리키는 위치부터 그 실행을 이어 가며, 이 구성 요소들은 **CPU가 네이티브 코드로 실행**하는 방식으로 동작합니다.
+- 자바 [[definitions/java-glossary#메서드|메서드]] 호출은 [[definitions/java-glossary#스레드|스레드]]마다 **자바 메서드용 스택**(프레임이 쌓이는 영역)에서 이어지고, `native`로 넘어가 [[definitions/java-glossary#JNI|JNI]] 등 **네이티브 코드**가 실행될 때는 [[definitions/java-glossary#네이티브 메서드 스택|네이티브 메서드 스택]]을 씁니다. 두 스택은 **역할이 다른 별도 영역**입니다.
+- 객체·배열은 힙을 비롯한 [[definitions/java-glossary#메모리|메모리]] 영역에 만들어지고 참조됩니다.
 
 ### 3. 개발 환경 구축
 
-아래 문서를 참조하여 [[definitions/java-glossary#JDK|JDK]], [[definitions/java-glossary#JRE|JRE]], [[definitions/java-glossary#JVM|JVM]]을 갖춘 개발 환경을 구축합니다.
+아래 문서를 참조하여 VS Code, [[definitions/java-glossary#JDK|JDK]], [[definitions/java-glossary#JRE|JRE]], [[definitions/java-glossary#JVM|JVM]]을 갖춘 개발 환경을 구축합니다.
 
+- [Visual Studio Code 설치 및 확장팩 메뉴얼](guides/menual/윈도우-기반-visual-studio-code-설치-및-확장팩-메뉴얼.md)
 - [윈도우 기반 WSL 자바 개발환경 설치 메뉴얼](../../guides/menual/윈도우-기반-wsl-자바-개발환경-설치-메뉴얼.md)
 
 ### 4. 첫 번째 프로그램 작성
@@ -95,7 +98,7 @@ java -cp ./build Main
 ```
 5. 터미널에 `Hello World`가 출력되면 성공입니다.
 
-> 앞으로 빠르고 간편한 실행을 위해 소스 파일에서 `main` 메소드 바로 위에 있는 `run` 버튼을 눌러 실행합니다.
+> 앞으로 빠르고 간편한 실행을 위해 소스 파일에서 `main` [[definitions/java-glossary#메서드|메서드]] 바로 위에 있는 `run` 버튼을 눌러 실행합니다.
 
 ### 5. 주석(Comment)의 종류와 작성 규칙
 
