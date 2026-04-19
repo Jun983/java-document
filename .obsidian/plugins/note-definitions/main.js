@@ -2612,7 +2612,7 @@ var NoteDefinition = class extends import_obsidian11.Plugin {
     this.addSettingTab(
       new SettingsTab(this.app, this, this.saveSettings.bind(this))
     );
-    this.registerMarkdownPostProcessor(postProcessor);
+    this.registerMarkdownPostProcessor(postProcessor, 400);
     this.fileExplorerDeco.run();
   }
   async saveSettings() {
